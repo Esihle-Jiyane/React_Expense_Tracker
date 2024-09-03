@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://image-prod.iol.co.za/16x9/800/By-making-changes-to-their-spending-habits-and-reducing-their-expenses-people-can-keep-a-little-extra-money-in-their-pockets-that-they-can-put-towards-a-savings-fund-Picture-File?source=https://iol-prod.appspot.com/image/f712176b9358c8ebc559d63c3392c93c05bd246d/2000&operation=CROP&offset=0x105&resize=2000x1125');
+  background-size:cover;
 }
 
 code {

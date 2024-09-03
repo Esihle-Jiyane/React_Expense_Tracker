@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 10%;
+  font-family: Arial, sans-serif;
+  color: whitesmoke; 
+}
+
+.app-heading {
+  text-align: center;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.expense-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1; 
+}
+
+.input-group {
+  display: flex;
+  gap: 5px; 
+}
+
+.expense-form button {
+  padding: 10px;
+  background-color:rgb(243, 17, 137);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.amounts {
+  display: inline-block;
+  text-align: right;
+}
+
+.expense-item span {
+  font-size: 16px;
+  text-align: left;
+}
+
+.sort-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(243, 17, 137);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button strong {
+  font-weight: bold;
+}
